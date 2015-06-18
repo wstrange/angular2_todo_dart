@@ -13,7 +13,4 @@ packages
 # Include when developing application packages.
 pubspec.lock
 
-.idea
-
-
-.idea/workspace.xml
+.idea/
