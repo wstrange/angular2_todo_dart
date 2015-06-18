@@ -2,6 +2,7 @@
 Sample todo app using Angular2 and Dart
 
 
-Largely copied from David East's JS example [here|https://github.com/davideast/ng2do]
+Largely copied from David East's JS example at https://github.com/davideast/ng2do
+
 
 
