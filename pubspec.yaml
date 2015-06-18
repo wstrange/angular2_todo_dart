@@ -1,0 +1,11 @@
+name: 'angular2_todo_dart'
+version: 0.0.1
+description: A sample angular app
+author: Warren Strange <warren.strange@gmail.com>
+#homepage: https://www.example.com
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: '>=0.10.0 <0.11.0'
+  angular2: any
+#transformer:
