@@ -14,6 +14,18 @@
         <input id="toggle-all" type="checkbox" (click)="toggleAll($event)">
         <label for="toggle-all">Mark all as complete</label>
 
+        <p> test</p>
+
+        <ul >
+            <li *ng-for="#todo of todoService.items">
+                <todo-list [todo-item]="todo"></todo-list>
+            </li>
+
+        </ul>
+
+        <p>end test</p>
+
+        <!--
         <ul id="todo-list">
             <li *ng-for="#todo of todoService.items">
                 <div class="view"
@@ -38,6 +50,7 @@
                 </div>
             </li>
         </ul>
+        -->
     </section>
     <footer id="footer">
         <span id="todo-count"></span>
