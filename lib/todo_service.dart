@@ -6,15 +6,9 @@ import 'package:angular2/angular2.dart';
 ''')
 class TodoItem {
   String text;
-  bool _done;
+  bool done;
 
-  bool get done => _done;
-  set done(bool x) {
-    _done = x;
-    print("set done $x");
-  }
-
-  TodoItem(this.text, this._done);
+  TodoItem(this.text, this.done);
 
   String toString() => "item: $text done: $done";
 }
